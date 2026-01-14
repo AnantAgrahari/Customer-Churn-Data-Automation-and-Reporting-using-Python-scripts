@@ -1,86 +1,68 @@
-# Customer-Churn-Data-Automation-Reporting-using-Python-scripts
-Customer Churn Analysis Automation (Python)
-Overview
+# Customer Churn Analysis Automation (Python)
 
+## Overview
 This project automates customer churn analysis using Python. It processes raw customer data, performs data cleaning and validation, computes key churn and revenue metrics, and logs execution details. The script is designed to simulate a real-world analytics automation pipeline that can be scheduled to run periodically.
 
-Business Objective
+---
 
-Customer churn has a direct impact on revenue and retention strategies. This automation enables consistent monitoring of churn behavior and customer value by generating reliable KPIs without manual intervention.
+## Business Objective
+Customer churn directly impacts revenue and long-term growth. This automation enables consistent monitoring of churn behavior and customer value by generating reliable KPIs without manual intervention.
 
-Tech Stack
+---
 
-Python
+## Tech Stack
+- Python  
+- Pandas  
+- Logging module  
+- Command Line (CMD)  
 
-Pandas
+---
 
-Logging module
+## Dataset
+**Telco Customer Churn Dataset (CSV)**
 
-Command Line (CMD) execution
+Key columns used:
+- `customerID`
+- `Churn`
+- `tenure`
+- `MonthlyCharges`
+- `TotalCharges`
 
-Dataset
+---
 
-Telco Customer Churn Dataset
+## Automation Workflow
 
-Format: CSV
+### 1. Data Ingestion
+- Reads customer churn data from CSV
+- Logs successful data loading
 
-Key fields:
+### 2. Data Cleaning
+- Converts `TotalCharges` from object to numeric
+- Handles blank and missing values
+- Ensures consistent data types
 
-customerID
+### 3. Data Validation
+- Checks presence of required columns
+- Raises errors if schema validation fails
 
-Churn
+### 4. KPI Computation
+- Total customers
+- Churned vs retained customers
+- Churn rate (%)
+- Average tenure (churned vs non-churned)
+- Average monthly charges (churned vs non-churned)
 
-tenure
+### 5. Logging & Error Handling
+- Logs execution steps and errors
+- Creates a persistent log file for monitoring
 
-MonthlyCharges
+---
 
-TotalCharges
+## Key Outputs
+- Customer churn rate
+- Revenue and tenure comparison
+- Statistical summaries of monthly charges
+- Execution logs for debugging and audits
 
-Automation Flow
-1. Data Ingestion
+---
 
-Loads customer churn data from CSV
-
-Logs successful file loading
-
-2. Data Cleaning
-
-Converts TotalCharges from object to numeric
-
-Handles blank and missing values
-
-Ensures data consistency
-
-3. Data Validation
-
-Verifies presence of mandatory columns
-
-Stops execution if schema validation fails
-
-4. KPI Computation
-
-Total customers
-
-Churned vs retained customers
-
-Churn rate
-
-Average tenure (churned vs non-churned)
-
-Average monthly charges (churned vs non-churned)
-
-5. Logging & Error Handling
-
-Logs execution status and errors
-
-Creates a persistent log file for monitoring
-
-Key Outputs
-
-Churn rate percentage
-
-Revenue and tenure comparison between churned and retained customers
-
-Statistical summaries for monthly charges
-
-Execution logs for audit and debugging
