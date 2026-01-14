@@ -1,0 +1,30 @@
+2026-01-14 08:49:53,484 - INFO - Churn automation script started
+2026-01-14 08:49:56,400 - INFO - CSV file loaded successfully
+2026-01-14 08:49:56,429 - INFO - Total charges column converted to numeric
+2026-01-14 08:49:56,436 - INFO - Avg tenure and monthlycharges for churned and unchurned
+2026-01-14 08:49:56,438 - INFO - Churn automation script completed successfully
+2026-01-14 08:51:39,685 - INFO - Churn automation script started
+2026-01-14 08:51:40,119 - INFO - CSV file loaded successfully
+2026-01-14 08:51:40,136 - INFO - Total charges column converted to numeric
+2026-01-14 08:51:40,145 - INFO - Avg tenure and monthlycharges for churned and unchurned
+2026-01-14 08:51:40,147 - INFO - Churn automation script completed successfully
+2026-01-14 09:03:23,152 - INFO - Churn automation script started
+2026-01-14 09:03:23,597 - INFO - CSV file loaded successfully
+2026-01-14 09:03:23,613 - INFO - Total charges column converted to numeric
+2026-01-14 09:03:23,622 - INFO - Avg tenure and monthlycharges for churned and unchurned
+2026-01-14 09:03:23,623 - INFO - Churn automation script completed successfully
+2026-01-14 09:04:09,723 - INFO - Churn automation script started
+2026-01-14 09:04:10,147 - INFO - CSV file loaded successfully
+2026-01-14 09:04:10,163 - INFO - Total charges column converted to numeric
+2026-01-14 09:04:10,170 - INFO - Avg tenure and monthlycharges for churned and unchurned
+2026-01-14 09:04:10,172 - INFO - Churn automation script completed successfully
+2026-01-14 09:05:58,595 - INFO - Churn automation script started
+2026-01-14 09:05:59,023 - INFO - CSV file loaded successfully
+2026-01-14 09:05:59,039 - INFO - Total charges column converted to numeric
+2026-01-14 09:05:59,047 - INFO - Avg tenure and monthlycharges for churned and unchurned
+2026-01-14 09:05:59,049 - INFO - Churn automation script completed successfully
+2026-01-14 09:07:43,568 - INFO - Churn automation script started
+2026-01-14 09:07:44,403 - INFO - CSV file loaded successfully
+2026-01-14 09:07:44,428 - INFO - Total charges column converted to numeric
+2026-01-14 09:07:44,436 - INFO - Avg tenure and monthlycharges for churned and unchurned
+2026-01-14 09:07:44,439 - INFO - Churn automation script completed successfully
